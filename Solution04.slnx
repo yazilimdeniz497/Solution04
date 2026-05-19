@@ -2,4 +2,5 @@
   <Project Path="04_01_BuiltinType/04_01_BuiltinType.csproj" />
   <Project Path="04_02_signedandunsigned/04_02_signedandunsigned.csproj" />
   <Project Path="04_03_ValueandRefType/04_03_ValueandRefType.csproj" />
+  <Project Path="04_04_Boxingandunboxing/04_04_Boxingandunboxing.csproj" />
 </Solution>
