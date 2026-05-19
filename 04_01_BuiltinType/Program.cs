@@ -20,17 +20,18 @@ switch (choice)
     case 1:
         result = amuntinTL / dollarRate;
         currencyName = "USD";
-        Console.WriteLine($"Dollar:{result}");
+        Console.WriteLine($"Tarih:{rateDate},Dollar:{result}");
+
         break;
         case 2:
         result = amuntinTL / eurorate;
         currencyName = "Euro";
-        Console.WriteLine($"Euro:{result}");
+        Console.WriteLine($"Tarih:{rateDate} Euro:{result}");
         break;
     case 3:
         result=amuntinTL / goldRate;
         currencyName = "Gold";
-        Console.WriteLine($"Gold:{result:2}");
+        Console.WriteLine($"Tarih:{rateDate} Gold:{result:2}");
         break;
     default:
         {
